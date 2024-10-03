@@ -1,0 +1,15 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "clean": "del-cli ./.parcel-cache ./docs ./dist",
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^5.1.0",
+    "parcel": "^2.12.0"
+  }
+}
